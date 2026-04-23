@@ -17,7 +17,7 @@ function SignupForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // You can handle form submission here
+    
     alert('Form submitted!');
   };
 
