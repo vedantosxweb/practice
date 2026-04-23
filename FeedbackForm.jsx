@@ -6,7 +6,7 @@ function FeedbackForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Log values without causing re-render
+  
     console.log('Name:', nameRef.current.value);
     console.log('Feedback:', feedbackRef.current.value);
   };
